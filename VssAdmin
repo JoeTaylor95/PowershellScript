@@ -1,0 +1,3 @@
+
+#List Writers
+vssadmin list writers | Select-String -Pattern "Writer name:","Last error:"
